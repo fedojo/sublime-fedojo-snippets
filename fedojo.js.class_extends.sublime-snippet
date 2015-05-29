@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+class ${1:name} extends ${2:extended_name} {
+    constructor {
+
+    }
+}
+]]></content>
+    <tabTrigger>class.ext</tabTrigger>
+</snippet>
