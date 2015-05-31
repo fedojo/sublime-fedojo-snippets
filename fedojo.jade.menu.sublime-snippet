@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+nav
+    ul
+        li
+            a(href="") ${1:About}
+
+        li
+            a(href="") ${1:Gallery}
+
+        li
+            a(href="") ${1:Contact}
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>jade.menu</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>
