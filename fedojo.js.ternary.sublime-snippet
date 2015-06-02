@@ -1,10 +1,6 @@
 <snippet>
     <content><![CDATA[
-if (${1:true}) {
-	
-} else {
-	
-}
+${1:statement} ? ${2:iftrue} : ${3:iffalse};
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>ifel</tabTrigger>

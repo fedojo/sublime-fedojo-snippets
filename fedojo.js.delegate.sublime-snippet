@@ -1,13 +1,9 @@
 <snippet>
     <content><![CDATA[
-if (${1:true}) {
-	
-} else {
-	
-}
+on('${1:event}', ${2:element}, ${3:function});
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>ifel</tabTrigger>
+    <tabTrigger>delegate</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <!-- <scope>source.python</scope> -->
 </snippet>
